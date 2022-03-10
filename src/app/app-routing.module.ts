@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'jujutsukaisen',
+    loadChildren: () => import('./animes/jujutsukaisen/jujutsukaisen.module').then( m => m.JujutsukaisenPageModule)
+  },
 ];
 
 @NgModule({
