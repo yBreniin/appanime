@@ -14,7 +14,15 @@ const routes: Routes = [
   {
     path: 'jujutsukaisen',
     loadChildren: () => import('./animes/jujutsukaisen/jujutsukaisen.module').then( m => m.JujutsukaisenPageModule)
+  },  {
+    path: 'kimetsu',
+    loadChildren: () => import('./animes/kimetsu/kimetsu.module').then( m => m.KimetsuPageModule)
   },
+  {
+    path: 'shigenki',
+    loadChildren: () => import('./animes/shigenki/shigenki.module').then( m => m.ShigenkiPageModule)
+  },
+
 ];
 
 @NgModule({
