@@ -26,14 +26,25 @@
   text-decoration: none;
 }
 
+ion-content {
+
+  ion-card {
+    font-family: cursive;
+
+    ion-button {
+      font-family: cursive;
+    }
+  }
+}
+
 .direita {
   margin-left: 80%;
 }
 
-ion-button {
-  font-family: cursive;
+.meio {
+  text-align: center;
 }
 
-ion-card {
-  font-family: cursive;
+.grid {
+  border-radius: 12px;
 }
